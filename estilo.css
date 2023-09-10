@@ -1,6 +1,7 @@
 body{
     background-color: rgb(177, 238, 238);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 ul{
     display: flex;
@@ -23,8 +24,8 @@ a{
  .center{
     text-align: center;
     }
- 
 h1{
+    text-transform: uppercase;
     color:#200d8a;
 }
 footer img{
