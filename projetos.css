@@ -1,0 +1,76 @@
+/* Configuração página Projetos.html*/
+body{
+    background-image: url(Img/FundoRodape.png);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    background-color: #09bbf1;
+}
+
+
+/* Container*/
+.container{
+    padding: 10px;
+    display: grid;
+    height: 670px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 4fr 3fr 4fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #94e3f5;
+    }
+    .projeto1{
+        background-image: url(Img/projeto1.png);
+    }
+    .projeto2{
+        background-image: url(Img/projeto2.png);
+    }
+    .projeto3{
+        background-image: url(Img/projeto3.png);
+    }
+    .projeto4{
+        background-image: url(Img/projeto4.png);
+    }
+    .projeto5{
+        background-image: url(Img/projeto5.png);
+    }
+    .projeto7{
+        background-image: url(Img/projeto6.png);
+    }
+    .projeto8{
+        background-image: url(Img/projeto7.png);
+    }
+    .projeto9{
+        background-image: url(Img/projeto8.png);
+    }
+    .projeto10{
+        background-image: url(Img/projeto9.png);
+    }
+    .projeto11{
+        background-image: url(Img/projeto10.png);
+    }
+
+footer img{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+
+}
+footer p{
+    margin-top: 5px;
+    text-decoration: none;
+}
+.container{
+    padding: 0px 50px;
+}

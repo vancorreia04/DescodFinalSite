@@ -1,0 +1,240 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+=======
+body{
+    background-color: rgb(177, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+>>>>>>> a6a0963b7b25bd11afab3b7faa1a9deba470e169
+}
+:root{
+    --cor-um:#2612A6;
+    --cor-dois:#2155BF;
+    --cor-tres:#1771BF;
+    --cor-quatro:#0D9FD9;
+    --cor-cinco:#3bccec;
+    --cor-seis:#0f5ec7;
+    --cor-sete:#16F2F2;
+    --cor-oito:#0554F2;
+
+
+}
+
+body, html{
+    background-image: url(Img/FundoRodape.png);
+background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+header{
+    background:linear-gradient(72deg, #3bccec 1%, #eeebf5 99% );
+}
+header > img{
+    padding: 10px;
+
+}
+.logo{
+    width: 100px;
+}
+#burguer{
+background-color: rgb(31, 28, 28);
+color: white;
+display: block;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+
+}
+#burguer:hover{
+  background-color: white;
+  color: black;  
+}
+menu{
+   
+    display:none;/* esconder menu*/
+}
+menu > ul{
+    list-style-type: none;
+}
+ 
+ menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+<<<<<<< HEAD
+    background-color:var(--cor-seis);
+    color:white;
+    border-top: 2px solid rgb(37, 35, 35);
+}
+menu > ul > li > a:hover{
+    background-color:var(--cor-quatro) ;
+}
+main{
+    
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+section{
+    padding-bottom: 10px;
+}
+section > p{
+    text-align:justify ;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+  .sobre{
+     width: 150px;
+    height: 150px; 
+    border-radius:50%;
+    border: 2px solid var(--cor-oito);
+ }
+ 
+h1{
+    text-transform: uppercase;
+    color:black;
+=======
+    }
+h1{
+    text-transform: uppercase;
+    color:#200d8a;
+>>>>>>> a6a0963b7b25bd11afab3b7faa1a9deba470e169
+}
+/* */
+
+/* */
+
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+   color: #2c09f1; 
+}
+
+/* Cards  */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.cards{
+   background-color:  #53c5f1 ;
+    min-height: 80vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:0px 0px 10px rgb(76, 77, 83) ;
+    transition: 0.3s;
+}
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.card-img{
+   min-width: 100%; 
+   width: auto;
+   height: 100%;
+} 
+.card-body{
+   
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card-titulo{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.card-1 .card-local{
+    color: #3042aa;
+}
+ .card-2 .card-local{
+    color: #202e7a;
+ }
+ .card-3 .card-local{
+     color: #1f36b6;
+ }
+ .card:hover{
+    transform:scale3d(1.1, 1.1, 1) ;
+ }
+ footer img{
+    width :40px;
+    height: 40px;
+}
+footer{
+    background-color: var(--cor-oito);
+    display: flex;
+    justify-content: center;
+    direction: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+
+footer img{
+    width :64px;
+    height: 64px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    direction: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer > p{
+    margin-top: 2px;}
+   
+
+    /* Configuração página Projetos.html*/
+body{
+    background-image: url(img/Fundo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coluna{
+    padding: 20px;
+    text-align: justify;
+}
+.dois{
+    float: left;
+    width: 40px;
+    margin: auto;
+}
+.center{
+    text-align: center;
+    }
+ 
+h1{
+    color:#200d8a;
+}
