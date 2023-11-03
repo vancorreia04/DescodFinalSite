@@ -51,7 +51,7 @@
                 box-shadow: 2px 2px 2xp rgb(22, 6, 6);
                 text-shadow: 1px 1px 1px rgb(0, 0, 0);
                position: absolute;
-               top: 90%;
+               top: 50%;
                left: 50%;
                margin-right: -50%;
                transform: translate(-50%, -50%);
