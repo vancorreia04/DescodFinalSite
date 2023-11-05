@@ -57,7 +57,7 @@ menu{
    
     display:none;/* esconder menu*/
 }
-menu > ul{
+menu{
     list-style-type: none;
 }
  
@@ -74,6 +74,11 @@ menu > ul{
 menu > ul > li > a:hover{
     background-color:var(--cor-quatro) ;
 }
+nav >ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 main{
     
     margin: auto;
