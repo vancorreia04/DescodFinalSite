@@ -1,16 +1,4 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    background-color: rgb(177, 238, 238);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
 :root{
     --cor-um:#2612A6;
     --cor-dois:#2155BF;
@@ -20,18 +8,22 @@ body{
     --cor-seis:#0f5ec7;
     --cor-sete:#16F2F2;
     --cor-oito:#0554F2;
-
-
 }
-
-body, html{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     background-image: url(Img/FundoRodape.png);
-background-size: cover;
-    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
+
 header{
     background:linear-gradient(72deg, #3bccec 1%, #eeebf5 99% );
+
 }
 header > img{
     padding: 10px;
@@ -41,7 +33,7 @@ header > img{
     width: 100px;
 }
 #burguer{
-background-color: rgb(31, 28, 28);
+background-color: rgb(27, 23, 23);
 color: white;
 display: block;
 text-align: center;
@@ -54,10 +46,9 @@ cursor: pointer;
   color: black;  
 }
 menu{
-   
-    display:none;/* esconder menu*/
+   display:none;
 }
-menu{
+menu > ul{
     list-style-type: none;
 }
  
@@ -66,7 +57,6 @@ menu{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-
     background-color:var(--cor-seis);
     color:white;
     border-top: 2px solid rgb(37, 35, 35);
@@ -103,15 +93,12 @@ section > p{
  }
  
 h1{
-    text-transform: uppercase;
-    color:black;
-
-    }
-h1{
+    font-family: "Poppins",sans-serif;
     text-transform: uppercase;
     color:#200d8a;
 
-}
+    }
+
 /* */
 
 /* */
