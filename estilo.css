@@ -87,7 +87,11 @@ h3{
     font-size: 1em;
     font-weight: 600 bold;
     color: #200d8a;
-
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #200d8a;
 }
 section{
     padding-bottom: 10px;
@@ -116,6 +120,7 @@ section > p{
     display: flex;
     justify-content:center ;
     align-items: center;
+    
 }
 .card{
     width: 300px;
@@ -164,6 +169,10 @@ section > p{
  .card:hover{
     transform:scale3d(1.1, 1.1, 1) ;
  }
+ .video{
+margin: auto;
+padding: 20px;
+ }
  footer img{
     width :40px;
     height: 40px;
@@ -199,7 +208,19 @@ footer a{
 }
 footer > p{
     margin-top: 2px;}
-   
+
+    @media screen and(max-width480px) {
+        .logo, #burguer, .container, .cards, .video, .footer
+    {
+   width: auto;}
+   h1, h2, h3{
+    text-align: center;
+   }
+   menu{
+    position: static;
+   }
+   width: 100%;
+}
 
     /* Configuração página Projetos.html*/
 body{
